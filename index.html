@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="upper">
+                <button class="arrowLeft button">
+                    <img width="20px" height="20px" src="arrowleft.png" alt="">
+                </button>
+                <button class="button" >
+                    <img class="playlist" width="20px" height="20px" src="playlist.png" alt="">
+                </button>
+            </div>
+
+            <div class="photo">
+
+                <img width="200px" height="200px" src="Ellipse 3.png" alt="">
+            </div>
+
+            <div class="timeControl">
+                <p class="currentPlayingTime" >0:00</p>
+                <p >
+                    <input type="range" min="0" max="100"  step="1" value="0" name="" id="progressBar">
+                </p>
+                <p class="fullLength">0:00</p>
+            </div>
+
+            <div class="details">
+                <h2 class="artist">Test Name</h2>
+                <b>Album Name</b>
+            </div>
+
+            <div class="controls">
+                <!-- <button class="button shuffle">
+                    <img width="40px" height="30px" src="Vector.png" alt="">
+                </button> -->
+                <button  class="button previous">
+                    <img src="previous.png" alt="">
+                </button>
+                <button  class="button play">
+                    <img width="40px" height="40px" src="pause.png" alt="">
+                </button>
+                <button  class="button next">
+                    <img src="next.png" alt="">
+                </button>
+                <!-- <button  class="button loop">
+                    <img width="20px" height="20px" class="loopImage" src="loop one.png" alt="">
+                </button> -->
+            </div>
+        </div>
+        <!-- <audio class="song" controls src="./Songs/Em Beihold - Numb Little Bug.mp3"></audio> -->
+        <audio ontimeupdate="updateTime(this)" controls class="song">
+            <source class="song" src="" type="audio/mpeg">    </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

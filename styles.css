@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  background-color: rgb(221, 93, 93);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  color: white;
+  width: 500px;
+  height: 600px;
+  /* background-image: linear-gradient(rgb(129, 0, 31), black); */
+  background-image: linear-gradient(180deg, rgb(129, 0, 31) 2%, black 50%);
+}
+.upper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.arrowLeft {
+  /* border-style: outset; */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.playlist {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.photo {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.timeControl {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.details {
+  margin-left: 180px;
+}
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.controls {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.artist {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.song {
+  display: none;
+}
