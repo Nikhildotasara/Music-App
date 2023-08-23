@@ -1,9 +1,9 @@
 console.log("I am connected");
 const playList = [
-  "Songs/Em Beihold - Numb Little Bug.mp3",
-  "Songs/JAANI TERA NAA (MUMMY NU PASAND)  SUNANDA SHARMA  JAANI  New Punjabi Songs 2017  MAD 4 MUSIC.mp3",
-  "Songs/Peg 90 Ml (Full Song) Deep Fateh  Mista Baaz  Latest Punjabi Songs 2020.mp3",
-  "Songs/Qismat Badalti Dekhi - Ammy Virk (Full Video)  Sargun Mehta  Jaani  B Praak  Punjabi Song 2023.mp3",
+  "Em Beihold - Numb Little Bug.mp3",
+  "JAANI TERA NAA (MUMMY NU PASAND)  SUNANDA SHARMA  JAANI  New Punjabi Songs 2017  MAD 4 MUSIC.mp3",
+  "Peg 90 Ml (Full Song) Deep Fateh  Mista Baaz  Latest Punjabi Songs 2020.mp3",
+  "Qismat Badalti Dekhi - Ammy Virk (Full Video)  Sargun Mehta  Jaani  B Praak  Punjabi Song 2023.mp3",
 ];
 const fullLength = document.querySelector(".fullLength");
 const next = document.querySelector(".next");
